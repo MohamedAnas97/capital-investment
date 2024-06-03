@@ -37,7 +37,7 @@ const Management = () => {
                 Address:
               </h4>
               <p className="text-[16px] text-[#606060] font-[400] leading-[24px] font-inter md:px-6 md:pt-1 pt-2 font-inter">
-                Address
+                EMAAR Square, Building #1, 5th Floor, Office #503, Dubai, UAE
               </p>
             </div>
             {/* box 3 after xl */}
@@ -46,7 +46,7 @@ const Management = () => {
                 Phone:
               </h4>
               <p className="text-[16px] text-[#606060] font-[400] leading-[24px] font-inter md:px-6 md:pt-1 pt-2 font-inter">
-                Phone Number
+                +971 54 701 6344
               </p>
             </div>
             {/* box 4 */}
@@ -55,7 +55,7 @@ const Management = () => {
                 Email:
               </h4>
               <p className="text-[16px] text-[#606060] font-[400] leading-[24px] font-inter md:px-6 md:pt-1 pt-2 font-inter">
-                Email
+                sales@anzagt.com
               </p>
             </div>
           </div>
@@ -94,7 +94,8 @@ const Management = () => {
       <div className="w-full bg-[green] py-11 my-10">
         <div className="mx-[5%] xl:mx-[7%] ">
           <p className="font-[700] text-[24px] leading-[30px] text-white text-center font-inter">
-          Thank you for considering Anza Capital Investment. We look forward to hearing from you and assisting you with your investment needs.
+            Thank you for considering Anza Capital Investment. We look forward
+            to hearing from you and assisting you with your investment needs.
           </p>
         </div>
       </div>
