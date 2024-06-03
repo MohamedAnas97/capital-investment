@@ -36,7 +36,7 @@ const Management = () => {
               <h4 className="text-[#36853A] text-[22px] lg:text-[24px] font-inter px-0 mx-0 font-inter">
                 Address:
               </h4>
-              <p className="text-[16px] text-[#606060] font-[400] leading-[24px] font-inter md:px-6 md:pt-1 pt-2 font-inter">
+              <p className="text-[16px] text-[#606060] font-[400] leading-[24px] font-inter md:px-4 md:pt-1 pt-2 font-inter">
                 EMAAR Square, Building #1, 5th Floor, Office #503, Dubai, UAE
               </p>
             </div>
@@ -45,7 +45,7 @@ const Management = () => {
               <h4 className="text-[#36853A] text-[22px] lg:text-[24px] font-inter px-0 mx-0 font-inter">
                 Phone:
               </h4>
-              <p className="text-[16px] text-[#606060] font-[400] leading-[24px] font-inter md:px-6 md:pt-1 pt-2 font-inter">
+              <p className="text-[16px] text-[#606060] font-[400] leading-[24px] font-inter md:px-4 md:pt-1 pt-2 font-inter">
                 +971 54 701 6344
               </p>
             </div>
@@ -54,7 +54,7 @@ const Management = () => {
               <h4 className="text-[#36853A] text-[22px] lg:text-[24px] font-inter px-0 mx-0 font-inter">
                 Email:
               </h4>
-              <p className="text-[16px] text-[#606060] font-[400] leading-[24px] font-inter md:px-6 md:pt-1 pt-2 font-inter">
+              <p className="text-[16px] text-[#606060] font-[400] leading-[24px] font-inter md:px-4 md:pt-1 pt-2 font-inter">
                 sales@anzagt.com
               </p>
             </div>
