@@ -12,7 +12,7 @@ const Footer = () => {
           />
         </div>
         <div className="border-b-[1px] border-[#fff]">
-          <ul className="flex sm:flex-row flex-col pb-10">
+          {/* <ul className="flex sm:flex-row flex-col pb-10">
             <li className="text-[16px] font-semibold leading-[24px] text-[#fff] sm:mr-4 cursor-pointer font-roboto ">
               Link One
             </li>
@@ -28,7 +28,7 @@ const Footer = () => {
             <li className="text-[16px] font-semibold leading-[24px] text-[#fff] sm:ml-4 sm:mt-0 mt-3 cursor-pointer font-roboto">
               Link Five
             </li>
-          </ul>
+          </ul> */}
         </div>
         <div className="flex sm:flex-row flex-col justify-between pt-10">
           <div>
