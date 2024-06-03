@@ -11,7 +11,7 @@ const Header = () => {
   const pathname = usePathname();
   return (
     <div className="border-b-[1px] border-[#D0D0D0] relative">
-      <div className="xl:ml-[10%] xl:mr-[7%] sm:mx-[6%] mx-[4%] flex items-center justify-between py-5">
+      <div className="mx-[5%] lg:mx-[7%] flex items-center justify-between py-5">
         <div>
           <Image
             src={require("/public/assets/home/logo.png")}
@@ -36,7 +36,9 @@ const Header = () => {
             </li>
             <li
               className={`text-[16px] font-medium leading-[22px] text-[#36853A] border-b-[3px] font-inter cursor-pointer mx-4 ${
-                pathname === "/our-services" ? "border-[#36853A]" : "border-[#fff]"
+                pathname === "/our-services"
+                  ? "border-[#36853A]"
+                  : "border-[#fff]"
               }`}
               onClick={() => {
                 router.push("/our-services");
@@ -56,7 +58,9 @@ const Header = () => {
             </li>
             <li
               className={`text-[16px] font-medium leading-[22px] text-[#36853A] border-b-[3px] font-inter cursor-pointer mx-4 ${
-                pathname === "/who-we-serve" ? "border-[#36853A]" : "border-[#fff]"
+                pathname === "/who-we-serve"
+                  ? "border-[#36853A]"
+                  : "border-[#fff]"
               }`}
               onClick={() => {
                 router.push("/who-we-serve");
@@ -66,7 +70,9 @@ const Header = () => {
             </li>
             <li
               className={`text-[16px] font-medium leading-[22px] text-[#36853A] border-b-[3px] font-inter cursor-pointer mx-4 ${
-                pathname === "/risk-management" ? "border-[#36853A]" : "border-[#fff]"
+                pathname === "/risk-management"
+                  ? "border-[#36853A]"
+                  : "border-[#fff]"
               }`}
               onClick={() => {
                 router.push("/risk-management");

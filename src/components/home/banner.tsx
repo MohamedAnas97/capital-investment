@@ -3,8 +3,8 @@ import Image from "next/image";
 const Banner = () => {
   return (
     <div className="relative h-full">
-      <div className="flex lg:flex-row flex-col justify-between lg:mx-0 sm:mx-[6%] mx-[4%] z-20 h-full">
-        <div className="lg:w-[38%] md:w-[90%] w-full xl:pt-5 lg:pt-3 xl:pl-5 lg:pl-3 sm:pt-10 pt-8 z-20 relative">
+      <div className="flex lg:flex-row flex-col justify-between lg:mx-0 mx-[5%] z-20 h-full">
+        <div className="lg:ml-[7%] lg:mr-[3%] lg:w-[38%] md:w-[90%] w-full xl:pt-5 sm:pt-10 pt-8 z-20 relative">
           <div className="lg:mb-0 ">
             <h1 className="2xl:text-[64px] xl:text-[54px] md:text-[48px] text-[38px] lg:text-right text-left font-bold font-inter 2xl:leading-[60px] xl:leading-[52px] leading-[48px]  text-[#36853A]">
               Achieve <br className="2xl:block hidden" /> Financial{" "}
@@ -30,7 +30,7 @@ const Banner = () => {
             </div>
           </div>
           <div className="flex lg:justify-end justify-start ">
-            <button className="md:px-[25px] px-[20px] md:py-[13px] py-[11px] bg-[#C4AA49] lg:text-[16px] sm:text-[15px] text-[14px] font-medium text-[#fff] leading-[18px] font-inter rounded-[5px] mb-3 lg:mb-0">
+            <button className="md:px-[25px] px-[20px] md:py-[13px] py-[11px] bg-[#C4AA49] lg:text-[16px] sm:text-[15px] text-[14px] font-medium text-[#fff] leading-[18px] font-inter rounded-[5px] mb-5 lg:mb-0">
               Learn More
             </button>
           </div>
