@@ -41,7 +41,7 @@ const Management = () => {
                   Phone:
                 </h4>
                 <p className="text-[16px] text-[#fff] font-[400] leading-[24px] font-inter md:px-3 md:pt-1 pt-2 font-inter">
-                  +971 54 701 6344
+                  +971 4 215 4000
                 </p>
               </div>
               {/* box 4 */}
@@ -50,7 +50,7 @@ const Management = () => {
                   Email:
                 </h4>
                 <p className="text-[16px] text-[#fff] font-[400] leading-[24px] font-inter md:px-3 md:pt-1 pt-2 font-inter">
-                  sales@anzagt.com
+                  info@anzainvestments.com
                 </p>
               </div>
             </div>
@@ -62,8 +62,7 @@ const Management = () => {
               Client Services:
             </h4>
             <p className="text-[16px] text-[#606060] font-[400] leading-[24px] font-inter px-1 py-1 font-inter">
-              For general inquiries, please email [General Inquiry Email
-              Address].
+              For general inquiries, please email info@anzainvestments.com.
             </p>
           </div>
           <div className="">
@@ -72,7 +71,7 @@ const Management = () => {
             </h4>
             <p className="text-[16px] text-[#606060] font-[400] leading-[24px] font-inter px-1 py-1 font-inter">
               For media inquiries or interview requests, please contact our
-              Media Relations team at [Media Inquiry Email Address].
+              Media Relations team at info@anzainvestments.com.
             </p>
           </div>
           <div className="pt-6">
@@ -85,34 +84,45 @@ const Management = () => {
             </p>
           </div>
           <div className="pt-6 flex items-center">
-            <div>
+            <a
+              href="https://www.facebook.com/profile.php?id=100087967784875"
+              target="_blank"
+            >
               <Image
                 src={require("/public/assets/contact-us/facebook.png")}
                 alt=""
                 className="h-[22px] w-[22px]"
               />
-            </div>
-            <div className="mx-3 sm:mx-5">
+            </a>
+            <a
+              href="https://www.instagram.com/anza_capital_investments/"
+              target="_blank"
+              className="mx-3 sm:mx-5"
+            >
               <Image
                 src={require("/public/assets/contact-us/instagram.png")}
                 alt=""
                 className="h-[20px] w-[20px]"
               />
-            </div>
-            <div>
+            </a>
+            <a href="https://x.com/anza_capital" target="_blank">
               <Image
                 src={require("/public/assets/contact-us/twitter.png")}
                 alt=""
                 className="h-[20px] w-[20px]"
               />
-            </div>
-            <div className="mx-3 sm:mx-5">
+            </a>
+            <a
+              href="https://www.linkedin.com/in/anza-capital-investments-970b36257/"
+              target="_blank"
+              className="mx-3 sm:mx-5"
+            >
               <Image
                 src={require("/public/assets/contact-us/linkedIn.png")}
                 alt=""
                 className="h-[20px] w-[20px]"
               />
-            </div>
+            </a>
           </div>
         </div>
       </div>

@@ -1,8 +1,10 @@
 import type { Metadata } from "next";
 import Header from "@/shared/header";
 import Footer from "@/shared/footer";
+import Whatapp from "/public/assets/home/whatsapp.png";
 import "./globals.css";
 import "../style/index.css";
+import Image from "next/image";
 
 export const metadata: Metadata = {
   title: "Anza Capital Investment",
@@ -17,6 +19,18 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
+        {/* WHATSAPP */}
+        <a
+          href="https://api.whatsapp.com/send?phone=971000000000"
+          target="_blank"
+          className="fixed z-20 bottom-10 right-5"
+        >
+          <Image
+            src={Whatapp}
+            alt=""
+            className="h-[50px] w-fit cursor-pointer shadow-xl rounded-full"
+          />
+        </a>
         <Header />
         {children}
         <Footer />
